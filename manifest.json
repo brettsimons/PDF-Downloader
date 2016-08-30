@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "eBook Extractor",
+  "description": "Extracts ebooks as PDFs from supported sites.",
+  "version": "1.0",
+  
+  "background": {
+	"page": "background.html"
+  },
+  
+  "icons": {
+	"19": "icon.png",
+	"48": "icon48.png",
+	"128": "icon128.png"
+  },
+
+  "page_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  
+  "permissions": [
+	"tabs",
+	"activeTab",
+	"webRequest",
+	"downloads",
+	"http://*.ebscohost.com/ehost/ebookviewer/ebook/*",
+	"http://reader.eblib.com/*/Reader.aspx*"
+  ]
+}
