@@ -7,5 +7,5 @@ This is a Google Chrome Extension that automates downloading PDFs from websites 
 *Note*: if the PDF has restrictions other than opening the document, you can use [ghostscript](http://ghostscript.com/) to get rid of them with the following command `gswin64c.exe -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile="output.pdf" -c .setpdfwrite -f "input.pdf"`
 
 ###Currently Supported Websites
--EBSCOhost.com
--EBLib.com
+- EBSCOhost.com
+- EBLib.com
